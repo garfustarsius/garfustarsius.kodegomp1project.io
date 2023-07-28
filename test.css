@@ -1,0 +1,45 @@
+* {
+      box-sizing: border-box;
+      color: whitesmoke;
+}
+
+header {
+      text-align:center;
+      background-color: rgb(16, 20, 20);
+      height: 30px;
+
+}
+.column {
+      float: left;
+      padding: 10px;
+      height: 950px;
+}     
+
+.left {
+      width: 40%;
+      background-color:rgb(16, 20, 20);
+}
+
+.middle {
+      width: 15%;
+      background-color:rgb(16, 20, 20);
+}
+
+.right {
+      width: 45%;
+      background-image: url(garf2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% ;
+      
+}
+
+.grid-container {
+      display: grid;
+      grid: 60px / auto auto auto;
+      grid-gap: 10px;
+      background-color: rgb(16, 20, 20);
+      padding: 10px;
+}
+.socials {
+      float: right;
+}
